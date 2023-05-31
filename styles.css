@@ -1,0 +1,91 @@
+.cabecalho{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgba(151,148,233,1);
+    text-align: center;
+}
+.text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.link {
+    color: rgb(200, 154, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.city {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(151,148,233,1) 100%);
+    margin: 5px;
+    padding: 20px;
+}
+
+.car { 
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(151,148,233,1) 100%);
+    margin: 5px;
+    padding: 20px;
+}
+.button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(238,174,202);
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+  .button2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(238,174,202);
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+  a:link, a:visited {
+    color: black;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+  a:hover, a:active {
+    background-color: rgba(151,148,233,1);
+}
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#menu-h {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(151,148,233,1) 100%);
+}
+#menu-h ul {
+    max-width: 320px;
+    list-style: none;
+    padding: 0;
+}
+#menu-h ul li {
+  display: inline;
+}
+#menu-h ul li a {
+    color: aliceblue;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+nav{
+    text-align: center;
+}
